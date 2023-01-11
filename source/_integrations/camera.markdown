@@ -95,7 +95,7 @@ action:
   target:
     entity_id: camera.yourcamera
   data:
-    filename: '/tmp/{{ entity_id.name }}_{{ now().strftime("%Y%m%d-%H%M%S") }}.mp4'
+    filename: 'tmp/{{ entity_id.name }}_{{ now().strftime("%Y%m%d-%H%M%S") }}.mp4'
 ```
 
 {% endraw %}
@@ -121,7 +121,7 @@ action:
   target:
     entity_id: camera.yourcamera
   data:
-    filename: '/tmp/yourcamera_{{ now().strftime("%Y%m%d-%H%M%S") }}.jpg'
+    filename: 'tmp/yourcamera_{{ now().strftime("%Y%m%d-%H%M%S") }}.jpg'
 ```
 
 {% endraw %}
